@@ -1,0 +1,65 @@
+{
+  "links": [
+    {
+      "link": "/sveden/common",
+      "description": "Основные сведения",
+      "props": [
+        "regDate",
+        "address",
+        "workTime",
+        "telephone",
+        "fax",
+        "email"
+      ]
+    },
+    {
+      "link": "/sveden/document",
+      "description": "Документы",
+      "props": [
+        "ustavDocLink",
+        "licenseDocLink",
+        "accreditationDocLink",
+        "finPlanDocLink",
+        "priemDocLink",
+        "modeDocLink",
+        "tekKontrolDocLink",
+        "perevodDocLink",
+        "vozDocLink",
+        "localActStud",
+        "localActOrder",
+        "localActCollec",
+        "reportEduDocLink",
+        "paidEduDocLink",
+        "paidEduDogDocLink",
+        "paidEduStoimDocLink",
+        "prescriptionDocLink",
+        "prescriptionOtchetDocLink"
+
+      ]
+    },
+    {
+      "link": "/sveden/grants",
+      "description": "Стипендии и иные виды материальной поддержки",
+      "props": [
+        "grant",
+        "typeGrant",
+        "localGrant",
+        "federalGrant",
+        "hostelInfo",
+        "hostelInfoOvz",
+        "hostelNum",
+        "hostelNumOvz",
+        "localActObSt",
+        "support",
+        "graduateJob"
+      ]
+    },
+    {
+      "link": "/sveden/paid_edu",
+      "description": "платные образовательные услуги",
+      "props": [
+        "paidEdu"
+      ]
+    }
+  ]
+}
